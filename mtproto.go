@@ -113,7 +113,7 @@ func NewMTProto(c Config) (*MTProto, error) {
 		encrypted:             s != nil, // if not nil, then it's already encrypted, otherwise makes no sense
 		sessionId:             utils.GenerateSessionID(),
 		serviceChannel:        make(chan tl.Object),
-		publicKeys:            append([]*rsa.PublicKey{c.PublicKey}, c.PublicKeys...),
+		publicKeys:            append([]*rsa.PublicKey{c.PublicKeys[0]}, c.PublicKeys...),
 		responseChannels:      utils.NewSyncIntObjectChan(),
 		expectedTypes:         utils.NewSyncIntReflectTypes(),
 		serverRequestHandlers: make([]customHandlerFunc, 0),
