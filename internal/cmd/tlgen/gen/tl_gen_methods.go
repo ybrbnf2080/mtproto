@@ -5,7 +5,7 @@ import (
 
 	"github.com/dave/jennifer/jen"
 	
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/tlparser"
+	"github.com/ybrbnf2080/mtproto/internal/cmd/tlgen/tlparser"
 )
 
 var maximumPositionalArguments = 5

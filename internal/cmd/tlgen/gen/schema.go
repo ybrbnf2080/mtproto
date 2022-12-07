@@ -3,7 +3,7 @@ package gen
 import (
 	"strings"
 
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/tlparser"
+	"github.com/ybrbnf2080/mtproto/internal/cmd/tlgen/tlparser"
 )
 
 // для понимания как преобразовано название типа

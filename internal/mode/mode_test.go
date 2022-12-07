@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	mode "github.com/xelaj/mtproto/internal/mode"
+	mode "github.com/ybrbnf2080/mtproto/internal/mode"
 )
 
 func TestModeEncode(t *testing.T) {
