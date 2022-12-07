@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/xelaj/go-dry"
-	"github.com/xelaj/mtproto/telegram"
+	"github.com/ybrbnf2080/mtproto/telegram"
 
-	utils "github.com/xelaj/mtproto/examples/example_utils"
+	utils "github.com/ybrbnf2080/mtproto/examples/example_utils"
 )
 
 func main() {

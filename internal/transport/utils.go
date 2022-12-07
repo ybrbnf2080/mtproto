@@ -2,7 +2,7 @@ package transport
 
 import (
 	"fmt"
-	"github.com/xelaj/mtproto/internal/encoding/tl"
+	"github.com/ybrbnf2080/mtproto/internal/encoding/tl"
 )
 
 type ErrNotMultiple struct {

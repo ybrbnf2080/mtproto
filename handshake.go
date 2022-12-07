@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/ybrbnf2080/mtproto/blob/master/LICENSE for details
 
 package mtproto
 
@@ -16,11 +16,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xelaj/go-dry"
 
-	ige "github.com/xelaj/mtproto/internal/aes_ige"
-	"github.com/xelaj/mtproto/internal/encoding/tl"
-	"github.com/xelaj/mtproto/internal/keys"
-	"github.com/xelaj/mtproto/internal/math"
-	"github.com/xelaj/mtproto/internal/mtproto/objects"
+	ige "github.com/ybrbnf2080/mtproto/internal/aes_ige"
+	"github.com/ybrbnf2080/mtproto/internal/encoding/tl"
+	"github.com/ybrbnf2080/mtproto/internal/keys"
+	"github.com/ybrbnf2080/mtproto/internal/math"
+	"github.com/ybrbnf2080/mtproto/internal/mtproto/objects"
 )
 
 // https://tlgrm.ru/docs/mtproto/auth_key

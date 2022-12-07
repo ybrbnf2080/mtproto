@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2022 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/ybrbnf2080/mtproto/blob/master/LICENSE for details
 
 package mtproto
 
@@ -12,10 +12,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xelaj/errs"
 
-	"github.com/xelaj/mtproto/internal/encoding/tl"
-	"github.com/xelaj/mtproto/internal/mtproto/messages"
-	"github.com/xelaj/mtproto/internal/mtproto/objects"
-	"github.com/xelaj/mtproto/internal/utils"
+	"github.com/ybrbnf2080/mtproto/internal/encoding/tl"
+	"github.com/ybrbnf2080/mtproto/internal/mtproto/messages"
+	"github.com/ybrbnf2080/mtproto/internal/mtproto/objects"
+	"github.com/ybrbnf2080/mtproto/internal/utils"
 )
 
 func (m *MTProto) sendPacket(request tl.Object, expectedTypes ...reflect.Type) (chan tl.Object, error) {

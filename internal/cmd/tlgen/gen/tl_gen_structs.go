@@ -11,8 +11,7 @@ import (
 
 	"github.com/dave/jennifer/jen"
 	"github.com/k0kubun/pp"
-
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/tlparser"
+	"github.com/ybrbnf2080/mtproto/internal/cmd/tlgen/tlparser"
 )
 
 func (g *Generator) generateSpecificStructs(f *jen.File) {

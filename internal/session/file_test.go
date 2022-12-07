@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/ybrbnf2080/mtproto/blob/master/LICENSE for details
 
 package session_test
 
@@ -13,7 +13,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/xelaj/mtproto/internal/session"
+	"github.com/ybrbnf2080/mtproto/internal/session"
 )
 
 func TestMTProto_SaveSession(t *testing.T) {
