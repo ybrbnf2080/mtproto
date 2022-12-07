@@ -4,7 +4,7 @@ import (
 	"sort"
 
 	"github.com/dave/jennifer/jen"
-	
+
 	"github.com/ybrbnf2080/mtproto/internal/cmd/tlgen/tlparser"
 )
 

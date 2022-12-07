@@ -7,7 +7,6 @@ import (
 	"github.com/dave/jennifer/jen"
 	"github.com/iancoleman/strcase"
 	"github.com/xelaj/go-dry"
-	
 	"github.com/ybrbnf2080/mtproto/internal/cmd/tlgen/tlparser"
 )
 
